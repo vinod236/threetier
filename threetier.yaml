@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "vinod236/backend"
+          image: "vinod236/backendname"
           ports:
             - name: http
               containerPort: 80
@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "vinod236/frontend"
+        image: "vinod236/frontendname"
         ports:
           - name: http
             containerPort: 80
